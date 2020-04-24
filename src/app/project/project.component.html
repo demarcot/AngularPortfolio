@@ -1,0 +1,13 @@
+<div class="projContainer" *ngIf="project">
+    <div class="title">
+        <h3>{{project.name}}</h3>
+        <p>{{project.description}}</p>
+    </div>
+
+    <div class="entry" *ngFor="let par of project.paragraphs">
+        <img *ngIf="par.img" [src]="par.img" alt="">
+        <video *ngIf="par.vid" controls [src]="par.vid"></video>
+        <p>{{par.text}}</p>
+    </div>
+    
+</div>

@@ -1,0 +1,74 @@
+[
+    {
+        "name": "3D Game Engine Prototype - [May through September 2018]",
+        "description": "This project was one that I worked on here and there over the course of months. Since I began teaching myself programming at the end of high school, I played around with graphics libraries using C++. I started with 2D scrap applications and sometimes included audio.",
+        "displayImg": "assets/EngineProto/c_closer_teapot.jpg",
+        "paragraphs": [
+            {
+                "text": "After I got 3D coordinates working, I took this short video to show a couple friends and decided I would document notable changes throughout the project.",
+                "vid": "assets/EngineProto/a_3d_coords_1.mp4"
+            },
+            {
+                "text": "This was the next update shortly after I had done some cleanup with the 3D coordinates.",
+                "vid": "assets/EngineProto/a_3d_coords_2.mp4"
+            },
+            {
+                "text": "Although this is pretty plain looking, this was the first 3D object I could render. I had a simple triangle filling method in my renderer that I thought was good. As you will see in the next couple references, I had a couple mistakes to fix!",
+                "img": "assets/EngineProto/b_rendered_pyramid.jpg"
+            },
+            {
+                "text":"I wrote a parser for .obj files and wrote classes to represent the faces list to send to my renderer. This first attempt and the expected shape were funny enough to document.",
+                "img": "assets/EngineProto/c_broken_teapot.jpg"
+            },
+            {
+                "text":"It took some digging, but I figured out part of my issue when building the faces list. The object was still upside-down and had a bug that caused many traingles to not be rendered, but I was still quite happy I had gotten to this point.",
+                "img": "assets/EngineProto/c_closer_teapot.jpg"
+            },
+            {
+                "text":"I then gave the objects a single anchor point in world space and was able to render multiple in different locations.",
+                "img": "assets/EngineProto/c_more_teapot.jpg"
+            },
+            {
+                "text":"Eventually I figured out the issue that was causing some triangles to not be rendered. It still looks as if the lines that would connect the faces isn't being rendered. They are obviously still upside-down.",
+                "img": "assets/EngineProto/d_fixed_teapots.gif"
+            },
+            {
+                "text":"This was the last update I documented which was the teapot finally being in an upright position.",
+                "img": "assets/EngineProto/d_fixed_upright_teapot.jpg"
+            }
+        ]
+    },
+    {
+        "name": "Game Development Projects",
+        "description": "This is a collection of the game development projects that I've worked on (including rough early attempts and game jams).",
+        "displayImg": "assets/GameDev/game_status_1.png",
+        "paragraphs": [
+            {
+                "text": "Ludum Dare 45 [October 2019] - This was an early capture from the project I was working on for the weekend game jam, Ludum Dare. The theme for this jam was 'Start with nothing'. I wasn't very fond of the theme, but it was the first game jam I had taken part in, and it was a week after I picked up the Unity game engine.",
+                "vid": "assets/GameDev/VID_20191004_215746.mp4"
+            },
+            {
+                "text": "HUD Cities Prototype [January 2020] - I recently picked up the Unity game engine with the intention of learning the workflow for building and releasing an entire game. This prototype was a collection of the game systems I would need for the game I had in mind.",
+                "img": "assets/GameDev/game_status_1.png"
+            },
+            {
+                "text": "This screenshot was taken after I got some of the game systems I wanted implemented. I could move the character, pick up items, and have a simple dialog with another character."
+            },
+            {
+                "text": "The total systems that I was able to complete were: Character controller, NPC patrol patterns, Event system, Dialogue system, Quest system, Doors/locks, Weight-based inventory, Character stats, Character levels, Stat-modifying equipment, Debug command line, Simple combat, Simple enemy cone-of-vision.",
+                "img": "assets/GameDev/demo_capture.png"
+            }
+        ]
+    },
+    {
+        "name": "Beer Brewing",
+        "description": "Beer brewing is a hobby that I gained an interest after being exposed to it by a co-worker during one of my internships. The way he described the process immediately got me intrigued. It sounded to me like a big science experiment where the outcome was a tasty beverage!",
+        "displayImg": "assets/Brewing/demarcohol_1.jpg",
+        "paragraphs": [
+            {
+                "text": "Picture 1",
+                "img": "assets/Brewing/20170502_140829.jpg"
+            }
+        ]
+    }
+]

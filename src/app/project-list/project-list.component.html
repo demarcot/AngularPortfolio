@@ -1,0 +1,16 @@
+<div class="title"><h3>Project List</h3></div>
+
+<div class="gridBox">
+    <mat-card class="example-card gridEl" [routerLink]="['/projects', projectId]" *ngFor="let project of projects | async; index as projectId">
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>{{project.name}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="project.displayImg" alt="">
+        <mat-card-content>
+            <p>
+                {{project.description}}
+            </p>
+        </mat-card-content>
+    </mat-card>
+</div>

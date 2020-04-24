@@ -1,0 +1,10 @@
+<a [routerLink]="['/']">
+  <h1>Thomas DeMarco</h1>
+  <h3>Software Developer - Game Developer - Beer Brewer</h3>
+</a>
+
+<button mat-icon-button [matMenuTriggerFor]="menu"><mat-icon>more_vert</mat-icon></button>
+<mat-menu #menu="matMenu">
+  <a routerLink="/about" mat-menu-item>About</a>
+  <a routerLink="/projects" mat-menu-item>Projects</a>
+</mat-menu>

@@ -1,0 +1,17 @@
+.projTitle {
+    color: dimgrey;
+}
+
+.gridBox {
+    display: flex;
+}
+
+.gridEl {
+    width: 32%;
+    margin: 4px;
+}
+
+.gridEl > img {
+    max-height: 40%;
+    object-fit: contain;
+}

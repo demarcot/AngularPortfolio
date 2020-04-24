@@ -1,0 +1,51 @@
+.about-content {
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+p, a {
+    
+    color: dimgrey;
+    font-size: 1em;
+}
+
+.about-content > * {
+    width: 45%;
+    /*background-color: #5a4d3f;*/
+    background-color: whitesmoke;
+    color: dimgrey;
+    border-radius: 10px;
+    margin: 4px;
+    font-size: 2em;
+}
+
+.about-content > p {
+    word-wrap: normal;
+    display: block;
+    text-align: center;
+}
+
+img {
+    width: auto;
+    max-height: 35vh;
+    border-radius: 50px;
+    object-fit: contain;
+}
+
+.button {
+    background-color: #5B9AD9;
+    border-radius: 6px;
+    color: whitesmoke;
+    margin-left: auto;
+    justify-self: center;
+    text-align: center;
+}
+
+.center-contents {
+    text-align: center;
+}
+
+.small-spacing {
+    padding: 4px;
+}

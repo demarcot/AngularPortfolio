@@ -1,0 +1,9 @@
+
+button {
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
+mat-icon {
+    color: white;
+}
