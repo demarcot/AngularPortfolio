@@ -20,10 +20,15 @@ p, a {
     font-size: 2em;
 }
 
-.about-content > p {
+.about-content-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-content-desc > p {
     word-wrap: normal;
-    display: block;
-    text-align: center;
+    text-align: center;    
 }
 
 img {
